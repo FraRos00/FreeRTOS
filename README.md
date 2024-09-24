@@ -2,7 +2,7 @@
 # FreeRTOS Custom Examples and Modifications
 
 ## Overview
-This repository contains examples and custom modifications for FreeRTOS to demonstrate different scheduling mechanisms, including preemption, round-robin scheduling, and process aging with critical task flags. Follow the instructions below to run the provided examples.
+This repository contains examples and custom modifications for FreeRTOS, showcasing basic OS functions and, more importantly, illustrating an understanding of the execution flow within OS mechanisms, such as context switches and process queue organization. For a detailed explanation, please refer to the CA_OS_project.pdf. However, note that the first two points primarily aim to demonstrate fundamental mechanisms like different types of scheduling and mutexes. The main modifications to the operating system are found in point three, but they are not designed for functional performance or to address any issues in the basic OS; instead, they serve to demonstrate the ability to modify the operating system while comprehending the existing code and tracing back through the system call tree, all while maintaining the integrity of the operating system.
 ---
 
 ## Setup Instructions
